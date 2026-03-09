@@ -1,0 +1,52 @@
+.footer_page{
+    background-color: rgb(227, 205, 176);
+    padding: 16px;
+    margin-top: 200px;
+}
+
+.footer_page h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+    color: rgb(113, 86, 50);
+
+}
+
+.footer_page p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.main_box ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+
+}
+
+.main_box ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.main_box {
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+hr{
+    background-color: rgb(182, 140, 85);
+    height: 2px;
+    border: none;
+}
+@media (max-width: 450px) {
+    .main_box ul h1{
+        font-size: 40px;
+        }
+    .main_box ul{
+        margin: 0;
+        padding: 0
+    }
+    }

@@ -1,0 +1,12 @@
+
+.header_style img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.header_style p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 80px;
+}

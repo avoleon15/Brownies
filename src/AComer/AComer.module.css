@@ -1,0 +1,38 @@
+.AComer {
+    background-color: rgba(199, 174, 83, 0.254);
+    margin: 0 40px 0 40px;
+    display: flex;
+    align-items: center; /* Vertically center content */
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 20px; /* Add space between image and text */
+}
+
+.infoBox {
+    flex: 1; /* Take up 50% of the space */
+    margin: 10px;
+}
+
+.AComer .image {
+    flex: 1; /* Take up 50% of the space */
+    max-width: 50%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 566px) {
+    .AComer {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .infoBox {
+        order: 2; /* Text appears after the image */
+    }
+
+    .AComer .image {
+        order: 1; /* Image appears before the text */
+        max-width: 100%; /* Full width on small screens */
+        width: 300px; /* Or a specific size if you prefer */
+        height: auto;
+    }
+}
